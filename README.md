@@ -1,6 +1,6 @@
 # A privacy-conscious way to embed YouTube videos in HTML pages
 
-When you embed a video in your HTML page following YouTube's instructions, you are inviting almost a dozen external files from YouTube and Google into your visitor's browser. Some of it is simply extra content that makes your page slower to load, and some of it are Javascript trackers that invade your visitor's privacy.
+When you embed a video in your HTML page following YouTube's instructions, you are inviting almost a dozen external files from YouTube and Google into your visitor's browser. Some of it is simply extra content that makes your page slower to load, and some of it are trackers that invade your visitor's privacy.
 
 I wrote up this alternative way of embedding videos for use in a website I'm building. It loads no external content until the user explicitly clicks on the video placeholder, which both makes your page lighter and respects your visitor's privacy. The solution is adapted from Nigel Brunner's solution, [A simple way to lazy load embedded YouTube videos using vanilla Javascript](https://www.nigelbunner.co.uk/blog/a-simple-way-to-lazy-load-embedded-youtube-videos-using-vanilla-javascript/).
 
