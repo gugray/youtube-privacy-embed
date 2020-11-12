@@ -14,9 +14,6 @@
   position: absolute; display: inline-block; color: white; left: 0;
   width: 100%; background-color: rgba(#000, 0.5);  padding: 8px 12px;
 }
-.youtube-container .video-placeholder .overlay .title a {
-  color: white; text-decoration: underline; border: none; font-size: 16px;
-}
 .youtube-container .video-placeholder .overlay .notice { 
   bottom: 0; font-size: 13px; 
 }
