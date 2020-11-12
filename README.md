@@ -50,7 +50,7 @@ window.addEventListener("load", function () {
 
 In the HTML, replace the following parts with data specific to the video you are including:
 
-- In the outer `div`, inside replace `id='vid-cVGAxMo-kiw'` the code at the end with your video's ID. This is the `v` paramter in the video's URL: youtube.com/watch?v=cVGAxMo-kiw
+- In the outer `div`, inside replace `id='vid-cVGAxMo-kiw'` the code at the end with your video's ID. This is the `v` paramter in the video's URL: https://youtube.com/watch?v=cVGAxMo-kiw
 - In the `img`, specify your own snapshot. You can retrieve one of YouTube's four default thumbnails at `img.youtube.com/vi/cVGAxMo-kiw/0.jpg` (the numbers go from 0 to 3), or you can use a snapshot of your own. I have found that YouTube's thumbnails don't always have the same aspect ratio as the video, which is unfortunate because it means your page will re-flow when the user clicks the placeholder and the actual player from YouTube loads.
 - In `<span class="title youtube-placeholder-label">` enter the video's title, or whatever title you would like to show.
 
