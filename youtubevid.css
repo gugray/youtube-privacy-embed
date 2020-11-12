@@ -1,0 +1,25 @@
+.youtube-container {
+  width: 640px; /* You can make this a fixed value, or something like 100%, depending on the context in your page */
+  display: block; position: relative; margin-bottom: 10px;
+}
+.youtube-container .video-placeholder { position: relative; }
+.youtube-container .video-placeholder .video-player-button {
+  position: absolute; left: 50%; top: 50%; width: 96px; height: 96px; margin: -44px 0 0 -44px; cursor: pointer;
+}
+.youtube-container .video-placeholder .video-snapshot-image { width: 100%; }
+.youtube-container .video-placeholder .overlay {
+      position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+}
+.youtube-container .video-placeholder .overlay span {
+  position: absolute; display: inline-block; color: white; left: 0;
+  width: 100%; background-color: rgba(#000, 0.5);  padding: 8px 12px;
+}
+.youtube-container .video-placeholder .overlay .title a {
+  color: white; text-decoration: underline; border: none; font-size: 16px;
+}
+.youtube-container .video-placeholder .overlay .notice { 
+  bottom: 0; font-size: 13px; 
+}
+.youtube-container .video-placeholder .overlay .notice a { 
+  border-bottom: none; color: white; position: relative; float: right; font-size: 18px; margin-top: -3px;
+}
