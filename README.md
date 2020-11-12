@@ -4,7 +4,7 @@ When you embed a video in your HTML page following YouTube's instructions, you a
 
 I wrote up this alternative way of embedding videos for use in a website I'm building. It loads no external content until the user explicitly clicks on the video placeholder, which both makes your page lighter and respects your visitor's privacy. The solution is adapted from Nigel Brunner's solution, [A simple way to lazy load embedded YouTube videos using vanilla Javascript](https://www.nigelbunner.co.uk/blog/a-simple-way-to-lazy-load-embedded-youtube-videos-using-vanilla-javascript/).
 
-To use it, include the HTML snippet and the Javascript shown below in your page.
+To use it, include the HTML snippet and the Javascript shown below in your page. You can also find the stylesheet among the repository's files.
 
 ```html
 <div class="youtube-container" id='vid-cVGAxMo-kiw'>
