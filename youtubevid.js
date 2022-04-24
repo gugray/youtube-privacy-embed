@@ -5,7 +5,7 @@ window.addEventListener("load", function () {
     const w = this.clientWidth;
     const h = this.clientHeight;
     this.innerHTML =
-      '<iframe src="//www.youtube.com/embed/' + id +
+      '<iframe src="//www.youtube-nocookie.com/embed/' + id +
       '?autoplay=1" frameborder="0" width="' + w + '" height="' + h + '" allowfullscreen></iframe>';
   }
   for (i = 0; i < v.length; i++) {
